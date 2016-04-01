@@ -1,50 +1,175 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Vector1 Software : The V1Soft website">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Vector1 Software</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/V1Soft">View on GitHub</a>
-
-          <h1 id="project_title">Vector1 Software</h1>
-          <h2 id="project_tagline">The V1Soft website</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a id="products" class="anchor" href="#products" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Products</h1>
-
-<h2>
-<a id="textbasedgame" class="anchor" href="#textbasedgame" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>textbasedgame</h2>
-
-<p>Webpage <a href="https://v1soft.github.io/textbasedgame">here</a>.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
-</html>
+<html><head>
+        <style>
+            div.main {
+                color: #ffffff;
+                padding: 5px;
+            }
+            table.projects {
+  		width: 100%;
+                padding: 5px;
+            }
+            table.projects tr:nth-child(even) {
+                background-color: #d3d3d3;
+                color: #000000;
+            }
+            table.projects tr:nth-child(odd) {
+                background-color: #a9a9a9;
+                color: #000000;
+            }
+            table.projects th, td {
+                border: 1px solid black;
+                padding: 5px;
+            }
+            table.projects a:link, a:visited {
+                text-decoration: none;
+                text-weight: bold;
+                color: #4682B4;
+            }
+            input.search {width: 100%;}
+            ul.header {
+          	background-color: #1A1A1A;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            ul.header li {
+                float: left;
+                padding: 5px;
+                font-size: 24px;
+                font-family: "Times New Roman";
+                font-weight: bold;
+            }
+            ul.header li, a, a.projects {
+                display: inline-block;
+                color: #FFFFFF;
+                text-align: center;
+                padding: 5px;
+                text-decoration: none;
+            }
+            li a:hover, .dropdown:hover, .dropbtn:hover {background-color: #4682B4;}
+            ul.header li.dropdown {display: inline-block;}
+            button.default {
+                background-color: #1a1a1a;
+                color: #FFFFFF;
+                font-size: 24px;
+                font-family: "Times New Roman";
+                font-weight: bold;
+                border: none;
+                cursor: pointer;
+            }
+            .dropdown {
+                height: 100%;
+                width: 100%;
+                position: relative;
+                display: inline-block;
+            }
+            .dropdown-content {
+                font-size: 16px;
+                display: none;
+                border: 1px solid black;
+                position: absolute;
+                background-color: #f9f9f9;
+            }
+            .dropdown-content a {
+                background-color: #1A1A1A;
+                color: #FFFFFF;
+                padding: 5px;
+                text-decoration: none;
+                display: block;
+            }
+            .dropdown-content a:hover {background-color: #4682B4}
+            .show {display:block;}
+        </style>
+        <script>
+            function dropdown(id) {document.getElementById(id).classList.toggle("show");}
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body bgcolor="#1a1a1a">
+        <div class="main">
+            <ul class="header">
+                <li><a href="https://github.com/V1Soft"><img src="https://avatars2.githubusercontent.com/u/14153672?v=3&amp;s=200"></a></li>
+                <li><p><a href="javascript:void(0)" class="dropbtn" onclick="dropdown('site')"">VectorOne Software</a>
+                    <div id="site" class="dropdown-content">
+                        <a href="https://V1Soft.github.io">VectorOne Software</a>
+                        <a href="javascript:void(0)">VectorOne Hardware</a>
+                        <a href="javascript:void(0)">VectorOne Research</a>
+                    </div></p></li>
+                <li><p>
+                    <a href="javascript:void(0)" class="dropbtn" onclick="dropdown('projects')">Projects</a>
+                    <div id="projects" class="dropdown-content">
+                        <a href="https://github.com/V1Soft/CodeAI">CodeAI</a>
+                        <a href="https://github.com/V1Soft/emacs-snippets">emacs-snippets</a>
+                        <a href="https://github.com/V1Soft/EsslScript">EsslScript</a>
+                        <a href="https://github.com/V1Soft/Not-Another-Programing-Language">Not-Another-Programming-Language</a>
+                        <a href="https://github.com/V1Soft/Tag">Tag</a>
+                        <a href="https://github.com/V1Soft/textbasedgame">textbasedgame</a>
+                        <a href="https://github.com/V1Soft/V1Soft.github.io">V1Soft.github.io</a>
+                        <a href="#projects">All Projects</a>
+                    </div>
+                </p></li>
+                <li><p><a href="mailto:software.vector1@gmail.com">Email</a></p></li>
+            </ul>
+        </div>
+        <div class="main">
+            <p><h2 id="home">Home:</h2></p>
+            <p><h2 id="projects">Projects:</h2></p>
+            <table class="projects" align="center">
+                <tbody><tr>
+                    <td><h2><p>Project Name</p></h2></td>
+                    <td><h2><p>Project Description</p></h2></td>
+                    <td><h2><p>Project Administrator</p></h2></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="https://github.com/V1Soft/CodeAI">CodeAI</a></strong></td>
+                    <td><p>The VectorOne Software Artificial Intelligence Project</p></td>
+                    <td><p>ecoh70</p></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="https://github.com/V1Soft/emacs-snippets">emacs-snippets</a></strong></td>
+                    <td><p>A collection of emacs snippets I've made/stolen</p></td>
+                    <td><p>DaVinci789</p></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="https://github.com/V1Soft/EsslScript">EsslScript</a></strong></td>
+                    <td><p>A Low High-Level Programming Language with elegance and efficiency all rolled into one</p></td>
+                    <td><p>ecoh70</p></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="https://github.com/V1Soft/Not-Another-Programing-Language">Not-Another-Programming-Language</a></strong></td>
+                    <td><p>Holy mackarel! Another language!</p></td>
+                    <td><p>DaVinci789</p></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="https://github.com/V1Soft/Tag">Tag</a></strong></td>
+                    <td><p>Tag Data Storage Solution</p></td>
+                    <td><p>ecoh70</p></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="https://github.com/V1Soft/textbasedgame">textbasedgame</a></strong></td>
+                    <td><p>An unnamed RPG-ish game</p></td>
+                    <td><p>disorientedperson</p></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="https://github.com/V1Soft/V1Soft.github.io">V1Soft.github.io</a></strong></td>
+                    <td><p>The V1Soft website</p></td>
+                    <td><p>ecoh70</p></td>
+                </tr>
+            </tbody></table>
+        </div>
+<div class="main">
+    <p>Published with <strong><a href="https://pages.github.com">GitHub Pages</a></strong></p>
+</div>    
+</body></html>
