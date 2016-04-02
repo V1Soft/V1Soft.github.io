@@ -41,7 +41,7 @@ div.main {
             ul.header li, a, a.projects {
                 display: inline-block;
                 color: #FFFFFF;
-                padding: 5px;
+                /*padding: 5px;*/
                 text-align: center;
                 text-decoration: none;
             }
@@ -57,6 +57,8 @@ div.main {
                 cursor: pointer;
             }
             .dropdown {
+                height: 100%;
+                width: 100%;
                 position: relative;
                 display: inline-block;
             }
