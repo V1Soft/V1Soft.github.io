@@ -1,5 +1,4 @@
-function dropdownClick(id) {document.getElementById(id).classList.toggle("show");}
-function dropdownLeave(id) {document.getElementById(id).classList.remove("show");}
+function dropdown(id) {document.getElementById(id).classList.toggle("show");}
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
