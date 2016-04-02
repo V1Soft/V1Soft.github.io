@@ -33,6 +33,7 @@ div.main {
             }
             ul.header li {
                 float: left;
+                padding: 5px;
                 font-size: 24px;
                 font-family: "Times New Roman";
                 font-weight: bold;
@@ -40,6 +41,7 @@ div.main {
             ul.header li, a, a.projects {
                 display: inline-block;
                 color: #FFFFFF;
+                padding: 5px;
                 text-align: center;
                 text-decoration: none;
             }
@@ -70,7 +72,6 @@ div.main {
             .dropdown-content a {
                 background-color: #1A1A1A;
                 color: #FFFFFF;
-                padding: 5px;
                 text-decoration: none;
                 display: block;
             }
