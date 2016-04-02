@@ -31,21 +31,21 @@ ul.header {
     padding: 0;
     overflow: hidden;
 }
-ul.header li {
+li {
     float: left;
     /*padding: 5px;*/
     font-size: 24px;
     font-family: "Times New Roman";
     font-weight: bold;
 }
-ul.header li, a, .dropbtn {
+li a, .dropbtn {
     display: inline-block;
     color: #FFFFFF;
     padding: 5px;
     text-align: center;
     text-decoration: none;
 }
-ul.header li, a:hover, .dropdown:hover, .dropbtn {background-color: #4682B4;}
+li a:hover, .dropdown:hover, .dropbtn {background-color: #4682B4;}
 li.dropdown {display: inline-block;}
 a.default {
     background-color: #1a1a1a;
