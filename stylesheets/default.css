@@ -30,7 +30,7 @@ a.default {
     font-family: "Times New Roman";
     font-weight: bold;
     border: none;
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 ul {
     background-color: #1A1A1A;
