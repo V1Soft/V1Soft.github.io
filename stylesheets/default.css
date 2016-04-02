@@ -59,7 +59,7 @@ div.main {
             .dropdown {
                 height: 100%;
                 width: 100%;
-                position: absolute;
+                position: relative;
                 display: inline-block;
             }
             .dropdown-content {
