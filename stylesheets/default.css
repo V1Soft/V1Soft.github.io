@@ -46,7 +46,7 @@ ul.header li {
     font-family: "Times New Roman";
     font-weight: bold;
 }
-ul.header li, a .dropbtn {
+ul.header li, a, .dropbtn {
     display: inline-block;
     color: #FFFFFF;
     padding: 5px;
