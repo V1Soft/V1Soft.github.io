@@ -3,7 +3,7 @@ div.main {
                 padding: 5px;
             }
             table.projects {
-  		width: 100%;
+  		          width: 100%;
                 padding: 5px;
             }
             table.projects tr:nth-child(even) {
@@ -20,7 +20,7 @@ div.main {
             }
             table.projects a:link, a:visited {
                 text-decoration: none;
-                text-weight: bold;
+                font-weight: bold;
                 color: #4682B4;
             }
             input.search {width: 100%;}
@@ -59,7 +59,7 @@ div.main {
             .dropdown {
                 height: 100%;
                 width: 100%;
-                position: relative;
+                /*position: relative;*/
                 display: inline-block;
             }
             .dropdown-content {
