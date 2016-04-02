@@ -23,7 +23,7 @@ table a:link, a:visited {
   font-weight: bold;
   color: #4682B4;
 }
-ul.header {
+ul {
     background-color: #1A1A1A;
     list-style-type: none;
     margin: 0;
