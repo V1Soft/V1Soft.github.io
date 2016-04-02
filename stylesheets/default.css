@@ -53,7 +53,7 @@ ul.header li, a, .dropbtn {
     text-align: center;
     text-decoration: none;
 }
-li a:hover, .dropdown:hover, .dropbtn {background-color: #4682B4;}
+li a:hover, .dropdown:hover .dropbtn {background-color: #4682B4;}
 li.dropdown {display: inline-block;}
 .dropdown-content {
     font-size: 16px;
