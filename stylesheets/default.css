@@ -40,7 +40,7 @@ ul.header {
     background-color: #1A1A1A;
 }
 
-ul.header li {float: left;}
+ul.header, li {float: left;}
 
 ul.header li a, .dropbtn {
     display: inline-block;
