@@ -50,7 +50,7 @@ ul.header, li a, .dropbtn {
     padding: 5px;
     text-decoration: none;
 }
-li a:hover, .dropdown:hover {background-color: #4682B4;}
+.dropdown:hover {background-color: #4682B4;}
 li.dropdown {display: inline-block;}
 .dropdown-content {
     display: none;
