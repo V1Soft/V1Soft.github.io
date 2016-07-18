@@ -48,10 +48,12 @@ ul.header, li a, .dropbtn {
     background-color: #1A1A1A;
     text-align: center;
     padding: 5px;
-    font-weight: bold;
-    font-size: 24px;
-    font-family: "Times New Roman";
     text-decoration: none;
+}
+ul.header, .dropbtn {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Times New Roman";
 }
 li a:hover, .dropdown:hover {background-color: #4682B4;}*/
 li.dropdown {display: inline-block;}
