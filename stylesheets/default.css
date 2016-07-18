@@ -50,7 +50,7 @@ ul.header, li a, .dropbtn {
     padding: 5px;
     text-decoration: none;
 }
-.dropdown a {
+.dropbtn {
   font-weight: bold;
   font-size: 24px;
   font-family: "Times New Roman";
