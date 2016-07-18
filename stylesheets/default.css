@@ -50,12 +50,14 @@ ul.header, li a, .dropbtn {
     padding: 5px;
     text-decoration: none;
 }
+
 .dropbtn {
   font-weight: bold;
   font-size: 24px;
   font-family: "Times New Roman";
 }
-li a:hover, .dropdown:hover {background-color: #4682B4;}*/
+
+li a:hover, .dropdown:hover {background-color: #4682B4;}
 li.dropdown {display: inline-block;}
 .dropdown-content {
     display: none;
@@ -63,6 +65,7 @@ li.dropdown {display: inline-block;}
     background-color: #1A1A1A;
     border: 1px solid #000000;
 }
+
 .dropdown-content a {
     color: #FFFFFF;
     padding: 5px;
