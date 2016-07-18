@@ -58,11 +58,12 @@ ul.header, li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover {background-color: #4682B4;}
+
 li.dropdown {display: inline-block;}
+
 .dropdown-content {
     display: none;
     position: absolute;
-    width: 100%;
     background-color: #1A1A1A;
     border: 1px solid #000000;
 }
@@ -74,6 +75,9 @@ li.dropdown {display: inline-block;}
     display: block;
     text-align: center;
 }
+
 .dropdown-content a:hover {background-color: #4682B4}
+
 .dropdown:hover .dropdown-content {display: block;}
+
 .show {display:block;}
