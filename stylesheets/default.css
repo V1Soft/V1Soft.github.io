@@ -64,6 +64,6 @@ li.dropdown {display: inline-block;}
     display: block;
     text-align: left;
 }
-/*.dropdown-content a:hover {background-color: #4682B4}*/
+.dropdown-content a:hover {background-color: #4682B4}
 .dropdown:hover .dropdown-content {display: block;}
 .show {display:block;}
