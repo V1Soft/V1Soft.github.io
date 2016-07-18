@@ -38,7 +38,6 @@ ul.header {
     padding: 0;
     overflow: hidden;
     background-color: #1A1A1A;
-    vertical-align: middle;
 }
 
 ul.header li {float: left;}
@@ -47,7 +46,7 @@ ul.header li a, .dropbtn {
     display: inline-block;
     color: #FFFFFF;
     background-color: #1A1A1A;
-    /*text-align: center;*/
+    text-align: center;
     padding: 5px;
     text-decoration: none;
 }
