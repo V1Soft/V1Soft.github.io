@@ -59,6 +59,7 @@ li.dropdown {display: inline-block;}
     display: none;
     position: absolute;
     background-color: #1A1A1A;
+    border: 1px solid #000000;
 }
 .dropdown-content a {
     color: #FFFFFF;
