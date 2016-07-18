@@ -45,12 +45,11 @@ ul.header, li {float: left;}
 ul.header, li a, .dropbtn {
     display: inline-block;
     color: #FFFFFF;
-    background-color: #4682B4;
     text-align: center;
     padding: 5px;
     text-decoration: none;
 }
-
+.dropbtn {background-color: #4682B4;}
 ul.header, li a:hover, .dropdown:hover {background-color: #4682B4;}
 
 li.dropdown {display: inline-block;}
