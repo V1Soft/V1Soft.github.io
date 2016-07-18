@@ -43,7 +43,7 @@ ul.header {
 
 ul.header li {float: left;}
 
-ul.header, li a, .dropbtn {
+ul.header li a, .dropbtn {
     display: inline-block;
     color: #FFFFFF;
     background-color: #1A1A1A;
