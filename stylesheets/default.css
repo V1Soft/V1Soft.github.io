@@ -48,12 +48,14 @@ li a, .dropbtn {
     background-color: #1A1A1A;
     text-align: center;
     padding: 5px;
+    font-family: verdana;
     text-decoration: none;
 }
 
 .dropbtn {
   font-weight: bold;
   font-size: 24px;
+  font-family: verdana;
   padding: 5px;
 }
 
